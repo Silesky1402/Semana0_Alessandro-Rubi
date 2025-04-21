@@ -27,16 +27,18 @@
 # Guía de Uso del Servidor y Postman
 
 ## Activación del Servidor
-1. Ejecuta el siguiente comando para activar el servidor:
+1. Ejecuta en la terminal el siguiente comando para activar el servidor:
    ```bash
    uvicorn main:app --reload
-2. Ingresa la dirección:
+2. En postman ingresa la dirección:
     ```bash
     http://127.0.0.1:8000/resolver
 3.En el Body, selecciona la opción raw y asegúrate de que el formato esté en JSON e ingresa el header:
     ```bash
         
     Content-Type: application/json
+
+4.Realiza la pregunta en el formato correcto.
 
      
 
