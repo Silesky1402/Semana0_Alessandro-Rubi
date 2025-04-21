@@ -23,7 +23,22 @@
 - Python 3.9 o superior.
 - `pip` instalado para la gestión de dependencias.
 
-''''
+### **Ejecución**
+# Guía de Uso del Servidor y Postman
+
+## Activación del Servidor
+1. Ejecuta el siguiente comando para activar el servidor:
+   ```bash
+   uvicorn main:app --reload
+2. Ingresa la dirección:
+    ```bash
+    http://127.0.0.1:8000/resolver
+3.En el Body, selecciona la opción raw y asegúrate de que el formato esté en JSON e ingresa el header:
+    ```bash
+        
+    Content-Type: application/json
+
+     
 
 ## Respuestas Clave
 
