@@ -1,4 +1,4 @@
-# Semana0_Alessandro-Rubi
+# Semana0_Alessandro-Rubí-Silesky
 
 ## Tecnologías Utilizadas
 
